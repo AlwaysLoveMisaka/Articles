@@ -1,0 +1,328 @@
+\documentclass[UTF8,a4paper,11pt]{article}
+
+\usepackage{ctex} 
+\usepackage{fancyhdr}
+\usepackage{multicol} 
+\usepackage{lastpage} 
+\usepackage{geometry} 
+\usepackage{titlesec} 
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{ulem}
+\usepackage{amsmath}
+\usepackage[subfigure,AllowH]{graphfig} 
+
+\geometry{left=3cm,right=3cm,top=2.5cm,bottom=2.5cm}
+\renewcommand{\baselinestretch}{1.5}
+
+
+\title{\huge\heiti《信号与系统》（刘泉、江雪梅主编）复习手册}
+\author{AlwaysLoveMisaka}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\clearpage
+
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+
+\setcounter{page}{1}
+\section{前言}
+这篇文章是我写的一篇用于复习《信号与系统》的手册，也是我用\LaTeX 写的第一篇文章。通过这篇文章，我打算梳理《信号与系统》（刘泉、江雪梅编）的重点知识。同志们在使用这个手册的时候，最好要结合课本，我也会在文中提及课本第一版（别问我为什么不用最新版，问就是没钱）的内容。
+
+这个手册是在Github上免费提供的，以后也会同步到CSDN上，如果同志们觉得这个好用，可以给我的内容点一个赞。本人Github主页：https://github.com/AlwaysLoveMisaka，CSDN主页：https://blog.csdn.net/Communism1848?type=blog。
+
+需要指明的是，本手册并不是考纲。所以，同志们如果发现手册里没有一些考试的内容，请不要来打我，毕竟我就是个垃圾大学生，不是出卷老师。没有写入的内容，部分是我认为不重要或者大家肯定懂，部分是我也没弄明白，部分是我技术有限，很难用\LaTeX 写出来（比如框图，我作为一个\LaTeX 新手是真的不会画）。所以请同志们见谅。
+
+这个手册可以写出来，我首先要感谢的是刘泉、江雪梅两位老师，她们既是教材的编者，也是《信号与系统》这门课我的授课老师。我认为这种情况对于我个人是非常难得的，没有她们对教材的深入讲解，我估计写不出来什么东西。我还要感谢我的父母，他们给我的大学生活提供了经济支持。
+
+另外，我还要感谢御坂美琴，虽然她是一个虚拟的人物，但却是我真实的\sout{老婆}精神支柱。每当想起她，我的生活就充满动力。我好想做御坂大人的狗啊，可是御坂大人说她喜欢的是猫（她是真喜欢猫，如图1），我哭了。我知道既不是狗也不是猫的我为什么要哭的，因为我其实是一只老鼠。我从没奢望御坂大人能喜欢自己，我明白的，所有人都喜欢萌萌的狗狗或者猫猫，没有人会喜欢阴湿带病的老鼠。（此段为作者逆天发病，若感到不适，可以用记号笔涂黑）
+\newline
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.2]{cat.jpg}
+\caption{御坂妹妹和猫}
+\label{figure}
+\end{figure}
+
+\section{信号与系统的基本概念}
+\subsection{信号的分类}
+连续时间信号 $f(t)$ 的能量 $E$ 和功率 $P$ 分别定义为
+\begin{equation}
+E=\lim_{T \to \infty}\int_{-T}^{T} {f^2(t)} \,{\rm d}t
+\end{equation}
+\begin{equation}
+P=\lim_{T \to \infty}\frac{1}{2T}\int_{-T}^{T} {f^2(t)} \,{\rm d}t 
+\end{equation}
+
+连续时间信号 $f(k)$ 的能量 $E$ 和功率 $P$ 分别定义为
+\begin{equation}
+E=\sum_{k=-\infty}^\infty f^2(k)
+\end{equation}
+\begin{equation}
+P=\lim_{N \to \infty}\frac{1}{2N}\sum_{k=-N}^N f^2(k)
+\end{equation}
+
+若 $0<E<\infty$ ,且 $P=0$ ,则称此信号为能量信号，即信号能量有限。若 $0<P<\infty$ ,且 $E$ 趋近于无穷,则称此信号为功率信号，即信号功率有限。
+
+从以上叙述中，我们可以知道，信号可以分成三类：能量信号、功率信号、既不是能量信号也不是功率信号的信号（如 $t\epsilon(t)$ ）。一般来说，周期信号都是功率信号。
+
+\subsection{系统的分类}
+从数学角度来说，系统可定义为实现某功能的运算。设符号 $T$ 表示系统的运算，将输入信号（又称激励） $e(t)$ 作用于系统，得到输出信号（又称响应） $r(t)$ ,表示为
+\begin{equation}
+r(t)=T[e(t)] 
+\end{equation}
+
+此关系也经常用 $e(t)\to r(t)$来表示。
+
+线性系统是指满足齐次性和叠加性的系统，可以用符号描述为，若 $e_1(t)\to r_1(t)$ , $e_2(t)\to r_2(t)$ ,则
+\begin{equation}
+T[k_1e_1(t)+k_2e_2(t)]=k_1T[e_1(t)]+k_2T[e_2(t)] 
+\end{equation}
+
+其中 $k_1$ 、 $k_2$ 是常数。若不满足上述条件，则为非线性系统。
+
+时不变系统的特性如下
+\begin{equation}
+r(t-\tau)=T[e(t-\tau)]
+\end{equation}
+
+其中 $\tau$ 是常数。若不满足上述条件，则为时变系统。
+
+因果系统是指系统在 $t_0$时刻的响应只取决于 $t\leq t_0$ 时的输入，否则为非因果系统。一般而言，任何物理可实现系统都具有因果性。而理想系统，例如各类理想滤波器，往往具有非因果性。
+
+稳定系统可描述为：若 $\left | e(t) \right |\leq M_1<\infty$ ,则$\left | r(t) \right |\leq M_2<\infty$ 。如不满足上述条件，则为不稳定系统。
+
+本教材主要讨论的是线性时不变系统。
+
+\section{连续时间信号与系统的时域分析}
+\subsection{常用典型信号}
+抽样信号 $Sa(t)$ 的定义为
+\begin{equation}
+Sa(t)=\frac{sint}{t}
+\end{equation}
+
+不难证明
+\begin{equation}
+\int_{-\infty}^{+\infty} {Sa(t)} \,{\rm d}t=\pi
+\end{equation}
+
+单位阶跃信号 $\epsilon(t)$ 的定义为
+\begin{equation}
+\epsilon(t)=
+\begin{cases}
+1\quad t>0 \\
+0\quad t<0 \\
+\end{cases}
+\label{pythagorean}
+\end{equation}
+
+值得注意的是， $t=0$ 时， $\epsilon(t)$ 未定义。
+
+我们可以用单位阶跃信号表示一些特殊信号，如矩形脉冲信号 $G_{\tau}(t)$ ,它可表示为
+\begin{equation}
+G_{\tau}(t)=\epsilon(t+\frac{\tau}{2})-\epsilon(t-\frac{\tau}{2}) \label{pythagorean}
+\end{equation}
+
+又如符号函数 $sgn(t)$ ，也可以用单位阶跃函数表示为
+\begin{equation}
+sgn(t)=2\epsilon(t)-1
+\end{equation}
+
+单位冲激信号 $\delta(t)$ 的定义为
+\begin{equation}
+\delta(t)=\lim_{\tau \to 0}\frac{1}{\tau}G_{\tau}(t)
+\end{equation}
+
+单位冲激信号有如下特性
+\begin{itemize}
+\item 抽样（筛选）特性
+
+若 $f(t)$ 连续且有界，则
+\begin{equation}
+\int_{-\infty}^{+\infty} {f(t)\delta(t-t_0)} \,{\rm d}t=f(t_0)
+\end{equation}
+
+\item $\delta(t)$ 为偶函数
+
+\item $\delta(at)=\frac{1}{\left | a \right |}\delta(t)$
+\end{itemize}
+
+\subsection{连续时间系统的响应}
+可以证明，一个线性时不变（LTI）系统可以用一个线性常系数微分方程表示，如式（15），这里举了一个二阶微分方程的例子。
+\begin{equation}
+\frac{{\rm d}^2}{{\rm d}t^2}r(t)+a_1\frac{{\rm d}}{{\rm d}t}r(t)+a_0r(t)=b_1\frac{{\rm d}}{{\rm d}t}e(t)+b_0e(t)
+\end{equation}
+
+这个方程的完全解由齐次解 $r_h(t)$ 和特解 $r_p(t)$ 组成（高等数学内容，此处复习一下）。齐次解又名自然响应，特解又名受迫响应。
+
+以式（15）的微分方程为例，写出特征方程
+\begin{equation}
+\lambda^2+a_1\lambda+a_0=0 
+\end{equation}
+
+解得特征根 $\lambda_1$ 、 $\lambda_2$ 。
+
+若 $\lambda_1\ne\lambda_2$ ，则方程的齐次解为
+\begin{equation}
+r_h(t)=C_1e^{\lambda_1t}+C_2e^{\lambda_2t}
+\end{equation}
+
+其中， $C_1$ 、 $C_2$ 为常数。若 $\lambda_1=\lambda_2$ ，则方程的齐次解为
+\begin{equation}
+r_h(t)=(C_1+C_2t)e^{\lambda_1t}
+\end{equation}
+
+当激励是常数时，特解也是一个常数。而当激励 $e(t)=e^{\alpha t}$ 时，特解应分三种情况讨论（我只列出来了一部分，完整版可以参考教材p32，因为\LaTeX 的表格，特别是需要合并单元格的表格，实在是太难画了，所以这里没展示出来）：
+\begin{itemize}
+\item 当 $\alpha$ 不等于特征根时， $r_p(t)=Ae^{\alpha t}$ 。
+\item 当 $\alpha$ 等于特征单根时， $r_p(t)=(A_1t+A_0)e^{\alpha t}$ 。
+\item 当 $\alpha$ 等于2重特征根时， $r_p(t)=(A_2t^2+A_1t+A_0)e^{\alpha t}$ 。
+\end{itemize} 
+
+上述 $A$ 、 $A_0$ 、 $A_1$ 、 $A_2$ 皆为常数。需要特别说明的是，特解本身是就是微分方程的一个解。
+
+讲到这里，有些同志可能还是不懂怎么通过这些知识求解响应，下面用一个例子说明。
+
+\textbf{例1：}已知一系统的微分方程为 $\frac{{\rm d}}{{\rm d}t}r(t)+2r(t)=e(t)$ ，初始状态 $r(0_{-})=2$ ，求当激励为 $\epsilon(t)$ 时，系统的全响应。
+
+\textbf{解：}由特征根方程 $\lambda +2=0$ 解得 $\lambda =-2$ ，因此可以得到齐次解（自然响应）
+\begin{equation}
+r_h(t)=Ce^{-2t}
+\notag
+\end{equation}
+
+因为激励为常数，因此设特解（受迫响应）
+\begin{equation}
+r_p(t)=B
+\notag
+\end{equation}
+
+由于特解本身就是微分方程的解，因此直接代入微分方程，解得 $B=0.5$ ，所以得到全响应
+\begin{equation}
+r(t)=Ce^{-2t}+\frac{1}{2}
+\notag
+\end{equation}
+
+将初始状态 $r(0_{-})=2$ 代入全响应公式，解得 $C=1.5$ ，因此得到全响应
+\begin{equation}
+r(t)=\frac{3}{2}e^{-2t}+\frac{1}{2}\quad(t>0)
+\notag
+\end{equation}
+
+现在，我们得到了求LTI响应的第一种方法：经典法。其步骤如下：
+\begin{itemize}
+\item 利用高等数学的传统方法写出带参数的齐次解和通解。
+\item 将齐次解代入微分方程解出齐次解。
+\item 将初始状态代入全响应解出全响应。
+\end{itemize} 
+
+而全响应也有另一种分割方法，即瞬态响应和稳态响应。瞬态响应指 $t\to \infty$ 时响应趋于零的那部分分量，暂态响应指 $t\to \infty$ 时响应不为零零的那部分分量。在例1中，瞬态响应为 $1.5e^{-2t}$ ，稳态响应为 $0.5$ 。需要特别指明的是，瞬态响应和稳态响应是无法直接求解出来的，只能在全响应求出来后进行分割。
+
+\subsection{卷积}
+卷积的定义为：
+\begin{equation}
+f_1(t)*f_2(t)=\int_{-\infty}^{+\infty} {f_1(\tau)f_2(t-\tau)} \,{\rm d}\tau
+\end{equation}
+
+卷积的一些性质：
+\begin{itemize}
+\item 交换律
+\begin{equation}
+f_1(t)*f_2(t)=f_2(t)*f_1(t)
+\end{equation}
+
+\item 分配率
+\begin{equation}
+f_1(t)*[f_2(t)+f_3(t)]=f_1(t)*f_2(t)+f_1(t)*f_3(t)
+\end{equation}
+
+\item 结合率
+\begin{equation}
+f_1(t)*[f_2(t)*f_3(t)]=[f_1(t)*f_2(t)]*f_3(t)
+\end{equation}
+
+\item 时移
+
+若 $f_1(t)*f_2(t)=f(t)$ ，则有 $f_1(t-t_1)*f_2(t-t_2)=f(t-t_1-t_2)$ 。
+
+\end{itemize}
+
+一些常用信号的卷积（我只列出了我认为重要的一部分，更多常用信号的卷积可参考教材p41）：
+\begin{equation}
+f(t)*\delta(t)=f(t)
+\end{equation}
+\begin{equation}
+f(t)*\delta'(t)=f'(t)
+\end{equation}
+\begin{equation}
+f(t)*\epsilon(t)=\int_{-\infty}^{t} {f(\tau)} \,{\rm d}\tau
+\end{equation}
+\begin{equation}
+\frac{{\rm d}f(t)}{{\rm d}t}*\int_{-\infty}^{t} {g(\tau)} \,{\rm d}\tau=f(t)*g(t)
+\end{equation}
+
+\subsection{零输入响应与零状态响应}
+系统的全响应还可以划分为零输入响应和零状态响应。零输入响应是输入激励为零时，仅由初始状态引起的响应,用 $r_{zi}(t)$ 表示。零状态响应是初始状态为零时，仅由激励引起的响应,用 $r_{zs}(t)$ 表示。
+
+由定义可知，零输入响应的形式与齐次解是相同的，但是零输入响应是通过直接将初始状态代入解得的。
+
+可以证明，一个LTI系统的零状态响应
+\begin{equation}
+r_{zs}(t)=h(t)*e(t)
+\end{equation}
+
+其中， $h(t)$ 是系统的冲激响应。
+
+有了这些信息，我们可以将例1用另一种方法再做一遍。
+
+\textbf{解：}由特征根方程 $\lambda +2=0$ 解得 $\lambda =-2$ ，因此可以得到零输入响应
+\begin{equation}
+r_{zi}(t)=Ae^{-2t}
+\notag
+\end{equation}
+
+将初始状态 $r(0_{-})=2$ 代入上式，解得 $A=2$ ，因此解得零输入响应
+\begin{equation}
+r_{zi}(t)=2e^{-2t}
+\notag
+\end{equation}
+
+因为零输入响应和齐次解的系数不一样，所以 $h(t)$ 必须带上 $e^{-2t}$ 项。因为 $h(t)$ 需要满足 $\frac{{\rm d}}{{\rm d}t}h(t)+2h(t)=\delta(t)$ ,所以 $h(t)$ 只能有 $e^{-2t}$ 项。因此设
+\begin{equation}
+h(t)=Be^{-2t}
+\notag
+\end{equation}
+
+代入微分方程，解得 $B=1$ ，所以零状态响应（这一步使用了式（25））
+\begin{equation}
+r_{zs}(t)=e^{-2t}*\epsilon(t)=-\frac{1}{2}e^{-2t}+C
+\notag
+\end{equation}
+
+写出全响应公式
+\begin{equation}
+r(t)=r_{zi}(t)+r_{zs}(t)=\frac{3}{2}e^{-2t}+C
+\notag
+\end{equation}
+
+代入初始状态 $r(0_{-})=2$ ，解得全响应
+\begin{equation}
+r(t)=r_{zi}(t)+r_{zs}(t)=\frac{3}{2}e^{-2t}+\frac{1}{2}
+\notag
+\end{equation}
+
+由此，我们得到了求LTI响应的第二种方法：时域零输入-零状态法。其步骤如下：
+\begin{itemize}
+\item 利用特征根写出带参数的零输入响应（其形式与齐次解相同）。
+\item 将初始状态代入零输入响应，解得零输入响应。
+\item 通过微分方程写出冲激响应的参数形式，然后代入微分方程解得冲激响应。
+\item 通过激励与冲激响应的卷积写出零状态响应的参数形式。
+\item 将初始状态代入全响应的参数形式，解得全响应。
+\end{itemize} 
+
+
+\end{document}
