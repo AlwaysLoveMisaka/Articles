@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.21)  4 JUN 2022 00:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.21)  7 JUN 2022 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,6 +389,10 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen164
 \titlewidthfirst=\dimen165
 )
+(d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
 (d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -562,92 +566,95 @@ File: UTF8.chr 2015/04/18 4.8.4
 
 LaTeX Warning: Label `pythagorean' multiply defined.
 
+
+LaTeX Warning: Label `figure' multiply defined.
+
 )
 \openout1 = `article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 23.
+LaTeX Info: Redefining \selectfont on input line 24.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 23.
+(lastpage)             ! on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -700,15 +707,21 @@ ii
 \everyMPtoPDFconversion=\toks30
 )
 LaTeX Font Info:    Trying to load font information for C70+zhhei on input line
- 24.
+ 25.
  (d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/tex/latex/zhmetrics/c70zhhei.fd
 File: c70zhhei.fd 2009/09/23 4.8.2
 )
 Package CJKpunct Info: use punctuation spaces for family 'zhhei' with punctstyl
-e (quanjiao) on input line 24.
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 24
+e (quanjiao) on input line 25.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 25
 .
- (d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+ (d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 25
+.
+
+(d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2019/05/29 v2.4.16 Chinese font definition (CTEX)
 )
 [1
@@ -721,47 +734,42 @@ File: c70rm.fd 2019/05/29 v2.4.16 Chinese font definition (CTEX)
 
 ]
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 34.
-
-Overfull \hbox (14.97733pt too wide) in paragraph at lines 36--37
-\C70/rm/m/n/10.95/59 } \C70/rm/m/n/10.95/75 (|\C70/rm/m/n/10.95/ff ^^L| \C70/rm
-/m/n/10.95/53 ï \C70/rm/m/n/10.95/4e å \C70/rm/m/n/10.95/7e Ù \C70/rm/m/n/10.95
-/62 ^^Q \C70/rm/m/n/10.95/76 „ \C70/rm/m/n/10.95/51 … \C70/rm/m/n/10.95/5b ¹ \C
-70/rm/m/n/10.95/70 ¹ \C70/rm/m/n/10.95/4e ^^@ * \C70/rm/m/n/10.95/8d ^|\C70/rm/
-m/n/10.95/30 ^^B| \C70/rm/m/n/10.95/67 , \C70/rm/m/n/10.95/4e º\OT1/cmr/m/n/10.
-95 Github\C70/rm/m/n/10.95/4e ; \C70/rm/m/n/10.95/98 u|\C70/rm/m/n/10.95/ff ^^Z
-| \OT1/cmr/m/n/10.95 https://github.com/AlwaysLoveMisaka|\C70/rm/m/n/10.95/ff ^
-^L|
- []
-
-<cat.jpg, id=123, 1375.38844pt x 803.25093pt>
+quanjiao) on input line 35.
+<cat.jpg, id=128, 1375.38844pt x 803.25093pt>
 File: cat.jpg Graphic file (type jpg)
 <use cat.jpg>
-Package pdftex.def Info: cat.jpg  used on input line 46.
+Package pdftex.def Info: cat.jpg  used on input line 47.
 (pdftex.def)             Requested size: 275.07281pt x 160.64734pt.
-[1
+ [1
 
- <./cat.jpg>] [2] [3] [4] [5] [6] 
+ <./cat.jpg>] [2] [3] [4] [5] [6] [7] [8] [9]
+[10]
+<c1.png, id=231, 3807.72563pt x 2653.66406pt>
+File: c1.png Graphic file (type png)
+<use c1.png>
+Package pdftex.def Info: c1.png  used on input line 525.
+(pdftex.def)             Requested size: 380.79488pt x 265.38196pt.
+ 
 AED: lastpage setting LastPage
-[7] (./article.aux)
+[11 <./c1.png>] (./article.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8832 strings out of 480608
- 149485 string characters out of 5898698
- 390695 words of memory out of 5000000
- 24256 multiletter control sequences out of 15000+600000
- 576976 words of font info for 188 fonts, out of 8000000 for 9000
+ 9027 strings out of 480608
+ 152330 string characters out of 5898698
+ 391817 words of memory out of 5000000
+ 24427 multiletter control sequences out of 15000+600000
+ 579795 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,7n,52p,663b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
-imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows
-/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf>{d:/study/LaTeX/LaTeX/texlive/20
-20/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Windows/Fonts/simhe
-i.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
-ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
+imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
+/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:
+/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei
+.ttf>{d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-
+super-ts1.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
 dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
 msun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
@@ -779,39 +787,43 @@ imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
 /Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
 .ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
-s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
+s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Wind
 ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
-sun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
-onts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
-indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
-tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
-simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
-s/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c
-:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhe
-i.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fon
-ts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
+sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
+onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
+indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.t
+tf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
+simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+s/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c
+:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhe
+i.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Win
 dows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf
 ><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/si
 mhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/
-Fonts/simhei.ttf><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/study/LaTeX/LaTeX/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/study/LaTeX/La
-TeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/study/
-LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d
-:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/font
-s/type1/public/cm-super/sfrm1000.pfb>
-Output written on article.pdf (9 pages, 837509 bytes).
+Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/
+Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.
+ttf><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/study/LaTeX/LaTeX/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/study/LaTeX/LaTeX/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/study/LaTeX
+/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/stu
+dy/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/typ
+e1/public/rsfs/rsfs10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1000.pfb>
+Output written on article.pdf (13 pages, 1060039 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 362 compressed objects within 4 object streams
+ 607 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
