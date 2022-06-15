@@ -1,0 +1,25 @@
+\contentsline {section}{摘要}{1}%
+\contentsline {section}{Abstract}{2}%
+\contentsline {section}{\numberline {1}基本原理}{3}%
+\contentsline {subsection}{\numberline {1.1}无线通讯技术}{3}%
+\contentsline {subsection}{\numberline {1.2}2.4GHz无线技术}{3}%
+\contentsline {section}{\numberline {2}系统设计方案}{5}%
+\contentsline {subsection}{\numberline {2.1}无线通信模块方案选择}{5}%
+\contentsline {subsubsection}{\numberline {2.1.1}NRF24L01}{5}%
+\contentsline {subsubsection}{\numberline {2.1.2}CC2500}{7}%
+\contentsline {subsection}{\numberline {2.2}主控单片机方案选择}{8}%
+\contentsline {subsubsection}{\numberline {2.2.1}STC89C52}{8}%
+\contentsline {subsubsection}{\numberline {2.2.2}STM32f103}{8}%
+\contentsline {subsection}{\numberline {2.3}系统构成框图}{9}%
+\contentsline {section}{\numberline {3}系统硬件设计}{11}%
+\contentsline {subsection}{\numberline {3.1}单片机与通信模块的连接}{11}%
+\contentsline {subsection}{\numberline {3.2}机械按钮}{11}%
+\contentsline {section}{\numberline {4}系统软件设计}{13}%
+\contentsline {subsection}{\numberline {4.1}按键配置程序}{13}%
+\contentsline {subsection}{\numberline {4.2}串口通信配置程序}{14}%
+\contentsline {subsection}{\numberline {4.3}NRF24L01配置程序}{18}%
+\contentsline {subsection}{\numberline {4.4}主函数}{24}%
+\contentsline {section}{\numberline {5}实物制作与调试}{27}%
+\contentsline {section}{\numberline {6}心得体会}{29}%
+\contentsline {section}{附录}{30}%
+\contentsline {section}{参考文献}{34}%
