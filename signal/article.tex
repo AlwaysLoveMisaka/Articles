@@ -46,7 +46,6 @@
 \centering
 \includegraphics[scale=0.2]{cat.jpg}
 \caption{御坂妹妹和猫}
-\label{figure}
 \end{figure}
 
 \section{信号与系统的基本概念}
@@ -67,7 +66,7 @@ E=\sum_{k=-\infty}^\infty f^2(k)
 P=\lim_{N \to \infty}\frac{1}{2N}\sum_{k=-N}^N f^2(k)
 \end{equation}
 
-若 $0<E<\infty$ ,且 $P=0$ ,则称此信号为能量信号，即信号能量有限。若 $0<P<\infty$ ,且 $E$ 趋近于无穷,则称此信号为功率信号，即信号功率有限。
+若 $0<E<\infty$ ,且 $P=0$ ,则称此信号为能量信号，即信号能量有限。若 $0<P<\infty$，且 $E$ 趋近于无穷,则称此信号为功率信号，即信号功率有限。
 
 从以上叙述中，我们可以知道，信号可以分成三类：能量信号、功率信号、既不是能量信号也不是功率信号的信号（如 $t\epsilon(t)$ ）。一般来说，周期信号都是功率信号。
 
@@ -103,7 +102,7 @@ r(t-\tau)=T[e(t-\tau)]
 \subsection{常用典型信号}
 抽样信号 $Sa(t)$ 的定义为
 \begin{equation}
-Sa(t)=\frac{sint}{t}
+Sa(t)=\frac{\sin t}{t}
 \end{equation}
 
 不难证明
@@ -329,7 +328,7 @@ r(t)=r_{zi}(t)+r_{zs}(t)=\frac{3}{2}e^{-2t}+\frac{1}{2}
 \subsection{傅里叶级数}
 以高等数学的知识，任何角频率为 $\omega$ 且满足狄里赫利条件的周期函数 $f(t)$ ，可以由三角函数的线性组合来表示。
 \begin{equation}
-f(t)=\frac{a_0}{2}+\sum_{i=1}^n a_icos(i\omega t)+\sum_{i=1}^n b_isin(i\omega t)
+f(t)=\frac{a_0}{2}+\sum_{i=1}^n a_i\cos(i\omega t)+\sum_{i=1}^n b_i\sin(i\omega t)
 \end{equation}
 
 式（28）中
@@ -337,10 +336,10 @@ f(t)=\frac{a_0}{2}+\sum_{i=1}^n a_icos(i\omega t)+\sum_{i=1}^n b_isin(i\omega t)
 a_0=\frac{2}{T}\int_{t_0}^{t_0+T} {f(t)} \,{\rm d}t
 \end{equation}
 \begin{equation}
-a_n=\frac{2}{T}\int_{t_0}^{t_0+T} {f(t)cos(n\omega t)} \,{\rm d}t
+a_n=\frac{2}{T}\int_{t_0}^{t_0+T} {f(t)\cos(n\omega t)} \,{\rm d}t
 \end{equation}
 \begin{equation}
-b_n=\frac{2}{T}\int_{t_0}^{t_0+T} {f(t)sin(n\omega t)} \,{\rm d}t
+b_n=\frac{2}{T}\int_{t_0}^{t_0+T} {f(t)\sin(n\omega t)} \,{\rm d}t
 \end{equation}
 
 $\omega$ 为基波频率， $n\omega$ 是 $n$ 次谐波频率。
@@ -369,7 +368,7 @@ $\omega$ 为基波频率， $n\omega$ 是 $n$ 次谐波频率。
 F(j\omega)=\mathscr{F}[f(t)]=\int_{-\infty}^{\infty} {f(t)e^{-j\omega t}} \,{\rm d}t
 \end{equation}
 \begin{equation}
-f(t)=\mathscr{F}^{-1}[F(j\omega)]=\frac{1}{2\pi}\int_{-\infty}^{\infty} {f(t)e^{-j\omega t}} \,{\rm d}\omega
+f(t)=\mathscr{F}^{-1}[F(j\omega)]=\frac{1}{2\pi}\int_{-\infty}^{\infty} {F(j\omega)e^{-j\omega t}} \,{\rm d}\omega
 \end{equation}
 
 也常记为 $f(t)\leftrightarrow F(j\omega)$ 。
@@ -436,18 +435,18 @@ e^{-\alpha t}\epsilon(t)\leftrightarrow \frac{1}{\alpha+j\omega}
 
 通过《复变函数与积分变换》的知识，我们可以知道
 \begin{equation}
-cos\omega_0t=\frac{e^{j\omega_0 t}+e^{-j\omega_0 t}}{2}
+\cos\omega_0t=\frac{e^{j\omega_0 t}+e^{-j\omega_0 t}}{2}
 \end{equation}
 \begin{equation}
-sin\omega_0t=\frac{e^{j\omega_0 t}-e^{-j\omega_0 t}}{2j}
+\sin\omega_0t=\frac{e^{j\omega_0 t}-e^{-j\omega_0 t}}{2j}
 \end{equation}
 
 因此由式（36），我们可以得到
 \begin{equation}
-\mathscr{F}[cos\omega_0t]=\frac{1}{2}\mathscr{F}[e^{j\omega_0 t}]+\frac{1}{2}\mathscr{F}[e^{-j\omega_0 t}]=\pi[\delta(\omega+\omega_0)+\delta(\omega-\omega_0)]
+\mathscr{F}[\cos\omega_0t]=\frac{1}{2}\mathscr{F}[e^{j\omega_0 t}]+\frac{1}{2}\mathscr{F}[e^{-j\omega_0 t}]=\pi[\delta(\omega+\omega_0)+\delta(\omega-\omega_0)]
 \end{equation}
 \begin{equation}
-\mathscr{F}[sin\omega_0t]=\frac{1}{2j}\mathscr{F}[e^{j\omega_0 t}]-\frac{1}{2j}\mathscr{F}[e^{-j\omega_0 t}]=j\pi[\delta(\omega+\omega_0)-\delta(\omega-\omega_0)]
+\mathscr{F}[\sin\omega_0t]=\frac{1}{2j}\mathscr{F}[e^{j\omega_0 t}]-\frac{1}{2j}\mathscr{F}[e^{-j\omega_0 t}]=j\pi[\delta(\omega+\omega_0)-\delta(\omega-\omega_0)]
 \end{equation}
 
 由线性性质和时移性质，我们可以得到单位门信号的傅里叶变换。
@@ -542,4 +541,335 @@ U_c(t)=\frac{R_2}{R_1+R_2}\cdot\mathscr{F}^{-1}[\pi\delta(\omega)+\frac{1}{j\ome
 系统的无失真是指响应信号与激励信号相比，只是幅度大小和出现的时间先后不同，而无波形上的变化。可以证明，系统的无失真传输条件为：在信号的全部频带内，频率响应的幅度特性是一常数，相位特性是一通过原点的直线，这一部分要具体了解可参照教材p87。
 
 另外，我个人认为教材p90的“调制与解调”部分比较重要，但是那些图我\sout{懒得画}不会画，所以同志们可以看一下书中这一部分的内容。
+
+\section{连续时间信号与系统的复频域分析}
+\subsection{拉普拉斯变换}
+我们在使用傅里叶变换时，通常会遇到一些困难，有时函数不满足狄里赫利条件，有时函数的定义域不是实数集，所以在傅里叶变换的基础上，数学家拉普拉斯提出了拉普拉斯变换。
+\begin{equation}
+F(s)=\mathscr{L}[f(t)]=\int_0^{+\infty} {f(t)e^{-st}} \,{\rm d}t
+\end{equation}
+
+其中， $s=\sigma+j\omega$ 。和傅里叶反变换同理，我们也有拉普拉斯反变换。
+\begin{equation}
+f(t)=\mathscr{L}^{-1}[F(s)]=[\frac{1}{2\pi j}\int_{\sigma-j\infty}^{\sigma+j\infty} {F(s)e^{-st}} \,{\rm d}s]\epsilon (t)
+\end{equation}
+
+一个拉普拉斯变换对也可以表示为 $f(t)\leftrightarrow F(s)$ 。
+
+由式（55）可知， $F(s)$ 存在的条件是被积函数收敛，从而要求满足
+\begin{equation}
+\lim_{t \to \infty}f(t)e^{-\sigma t}=0
+\end{equation}
+
+此即拉普拉斯变换存在的充要条件。对于函数 $f(t)$ ，若只有 $\sigma >\sigma_0$ 时，满足式（57），则称 $\sigma >\sigma_0$ 为收敛域。
+
+可以证明，当 $f(t)\leftrightarrow F(s)$ 时，拉普拉斯变换有以下性质（此处可参考教材p128，实际上傅里叶变换和拉普拉斯变换的性质十分相似，可以结合记忆）：
+\begin{itemize}
+\item 线性性质（不必多说）
+\item 时移性质
+\begin{equation}
+f(t-t_0)\epsilon(t)\leftrightarrow F(s)e^{-st_0}
+\end{equation}
+\item 频移性质
+\begin{equation}
+f(t)e^{s_0 t}\leftrightarrow F(s-s_0)
+\end{equation}
+\item 尺度变换
+\begin{equation}
+f(at)\leftrightarrow \frac{1}{a}F(\frac{s}{a}), a>0
+\end{equation}
+\item 时域微分
+\begin{equation}
+\frac{{\rm d}f(t)}{{\rm d}t}\leftrightarrow sF(s)-f(0_-)
+\end{equation}
+\item 时域积分
+\begin{equation}
+\int_{0_-}^t {f(\tau)} \,{\rm d}\tau\leftrightarrow\frac{F(s)}{s}
+\end{equation}
+\item 复频域微分
+\begin{equation}
+-tf(t)\leftrightarrow \frac{{\rm d}F(s)}{{\rm d}s}
+\end{equation}
+\item 复频域积分
+\begin{equation}
+\frac{f(t)}{t}\leftrightarrow \int_s^{\infty} {F(\eta)} \,{\rm d}\eta
+\end{equation}
+\item 初值定理
+\begin{equation}
+f(0_+)\leftrightarrow \lim_{s \to \infty}sF(s)
+\end{equation}
+\item 终值定理，使用此定理，需满足条件： $F(s)$ 的所有极点在 $s$ 平面的左半平面内（原点处可有单阶极点）。
+\begin{equation}
+f(\infty)\leftrightarrow \lim_{s \to 0}sF(s)
+\end{equation}
+\item 时域卷积
+\begin{equation}
+f_1(t)*f_2(t)\leftrightarrow F_1(s)\cdot F_2(s)
+\end{equation}
+\item 复频域卷积
+\begin{equation}
+f_1(t)\cdot f_2(t)\leftrightarrow \frac{1}{2\pi j}F_1(s)*F_2(s)
+\end{equation}
+\end{itemize} 
+
+可以证明下列基本拉普拉斯变换：
+\begin{equation}
+\epsilon(t)\leftrightarrow \frac{1}{s}
+\end{equation}
+\begin{equation}
+\sin(\omega_0t)\leftrightarrow \frac{\omega_0}{s^2+\omega_0^2}
+\end{equation}
+\begin{equation}
+\cos(\omega_0t)\leftrightarrow \frac{s}{s^2+\omega_0^2}
+\end{equation}
+
+通过式（61）（69），可以证明
+\begin{equation}
+\delta(t)\leftrightarrow 1
+\end{equation}
+
+通过频移性质，可以证明
+\begin{equation}
+e^{-\alpha t}\leftrightarrow \frac{1}{s+\alpha}
+\end{equation}
+\begin{equation}
+e^{-\alpha t}\sin(\omega_0t)\leftrightarrow \frac{\omega_0}{(s+\alpha)^2+\omega_0^2}
+\end{equation}
+\begin{equation}
+e^{-\alpha t}\cos(\omega_0t)\leftrightarrow \frac{s+\alpha}{(s+\alpha)^2+\omega_0^2}
+\end{equation}
+
+通过复频域的积分性质，可以证明
+\begin{equation}
+te^{-\alpha t}\leftrightarrow \frac{1}{(s+\alpha)^2}
+\end{equation}
+\begin{equation}
+t\sin(\omega_0t)\leftrightarrow \frac{2\omega_0s}{(s^2+\omega_0^2)^2}
+\end{equation}
+\begin{equation}
+t\cos(\omega_0t)\leftrightarrow \frac{s^2-\omega_0^2}{(s^2+\omega_0^2)^2}
+\end{equation}
+
+\subsection{拉普拉斯反变换}
+一般而言，一个LTI系统的象函数是一个有理分式，所以我们重点研究有理分式的拉普拉斯反变换。若有理分式是一个假分式，我们要用长除法将其分解为一个多项式和一个真分式之和。然后，我们对这个真分式 $\frac{N_0(s)}{D(s)}$ 进行因式分解，我们对这个分式进行如下分类，并分别举例（通用公式可见教材p129）。
+\begin{itemize}
+\item $D(s)=0$ 的所有根均为单实根
+
+\textbf{例3：}若 $F(s)=\frac{s-1}{s^2+3s+2}$ ，试求 $f(t)$ 。
+
+\textbf{解：}设
+\begin{equation}
+F(s)=\frac{K_1}{s+1}+\frac{K_2}{s+2}
+\notag
+\end{equation}
+
+因此
+\begin{equation}
+K_1=\left. \frac{s-1}{s+2} \right| _{s=-1}=-2
+\notag
+\end{equation}
+\begin{equation}
+K_2=\left. \frac{s-1}{s+1} \right| _{s=-2}=3
+\notag
+\end{equation}
+
+由式（73）可得
+\begin{equation}
+f(t)=-2e^{-t}+3e^{-2t}
+\notag
+\end{equation}
+
+\item $D(s)=0$ 具有共轭复根且无重复根
+
+\textbf{例4：}若 $F(s)=\frac{s}{s^2+2s+5}$ ，试求 $f(t)$ 。
+
+\textbf{解：}我们可以吧象函数进行如下变换：
+\begin{equation}
+F(s)=\frac{s+1}{(s+1)^2+2^2}-\frac{1}{2}\cdot\frac{2}{(s+1)^2+2^2}
+\notag
+\end{equation}
+
+由式（74）（75）可得
+\begin{equation}
+f(t)=e^{-t}\cos 2t-\frac{1}{2}e^{-t}\sin 2t
+\notag
+\end{equation}
+
+\item $D(s)=0$ 含有重根
+
+\textbf{例5：}若 $F(s)=\frac{s-2}{s(s+1)^3}$ ，试求 $f(t)$ 。
+
+\textbf{解：}将F(s)部分分式展开：
+\begin{equation}
+F(s)=\frac{K_{13}}{(s+1)^3}+\frac{K_{12}}{(s+1)^2}+\frac{K_{11}}{s+1}+\frac{K_2}{s}
+\notag
+\end{equation}
+
+因此
+\begin{equation}
+K_2=\left. \frac{s-2}{(s+1)^3} \right| _{s=0}=-2
+\notag
+\end{equation}
+\begin{equation}
+K_{13}=\left. \frac{s-2}{s} \right| _{s=-1}=3
+\notag
+\end{equation}
+\begin{equation}
+K_{12}=\left. \frac{ {\rm d}}{ {\rm d}s}(\frac{s-2}{s}) \right| _{s=-1}=2
+\notag
+\end{equation}
+\begin{equation}
+K_{11}=\left. \frac{1}{2}\cdot\frac{ {\rm d}^2}{ {\rm d}s^2}(\frac{s-2}{s}) \right| _{s=-1}=2
+\notag
+\end{equation}
+
+由式（63）可得
+\begin{equation}
+f(t)=(\frac{3}{2}t^2+2t+2)e^{-t}-2
+\notag
+\end{equation}
+\end{itemize}
+
+\subsection{连续时间系统的复频域分析}
+现在，有了拉普拉斯变换这个强力工具，我们可以再把例1做一遍。
+
+\textbf{解：}将方程两边进行拉普拉斯变换，得：
+\begin{equation}
+sR(s)-2+2R(s)=E(s)
+\notag
+\end{equation}
+
+整理后得：
+\begin{equation}
+R(s)=\frac{2}{s+2}+\frac{E(s)}{s+2}
+\notag
+\end{equation}
+
+$\frac{1}{s+2}$ 被称为系统函数 $H(s)$ ，它与系统的激励无关，只取决于系统本身的特性。可以证明，上式的第一项时零输入响应，第二项为零状态响应。将 $E(s)=1/s$ 代入，得：
+\begin{equation}
+R(s)=\frac{3}{2}\cdot\frac{1}{s+2}+\frac{1}{2s}
+\notag
+\end{equation}
+
+对 $R(s)$ 进行拉普拉斯反变换，解得系统的全响应。
+\begin{equation}
+r(t)=\frac{3}{2}e^{-2t}+\frac{1}{2}\quad(t>0)
+\notag
+\end{equation}
+
+由此，我们得到了求LTI响应的第四种方法：拉普拉斯变换法。这种方法比上面三种方法都要简单，但是要求激励必须从零开始。其步骤如下：
+\begin{itemize}
+\item 将微分方程两边进行拉普拉斯变换。
+\item 求得 $R(s)$ 。
+\item 用拉普拉斯反变换解得全响应。
+\end{itemize} 
+
+在上一章，我们做到了利用傅里叶变换求电路的零状态响应。现在有了拉普拉斯变换这个工具，我们可以更进一步，求出线性电路的全响应，这里介绍一下电路元件的 $s$ 域模型。
+
+电阻、电感和电容的时域关系分别为
+\begin{equation}
+u_R(t)=Ri_R(t)
+\end{equation}
+\begin{equation}
+u_L(t)=L\frac{{\rm d}i_L(t)}{{\rm d}t}
+\end{equation}
+\begin{equation}
+u_C(t)=\frac{1}{C}\int_{-\infty}^t {i_C(\tau)} \,{\rm d}\tau
+\end{equation}
+
+将以上三式进行拉普拉斯变换，得
+\begin{equation}
+U_R(s)=RI_R(s)
+\end{equation}
+\begin{equation}
+U_L(s)=sLI_L(s)-Li_L(0_-)
+\end{equation}
+\begin{equation}
+U_C(s)=\frac{1}{sC}I_C(s)+\frac{1}{s}u_C(0_-)
+\end{equation}
+
+这便是s域元件的串联模型，图3是其具象化。
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{p2.png}
+\caption{s域原件串联模型}
+\end{figure}
+
+我们亦可以改写以上三式
+\begin{equation}
+I_R(s)=\frac{1}{R}U_R(s)
+\end{equation}
+\begin{equation}
+I_L(s)=\frac{1}{sL}U_L(s)+\frac{1}{s}i_L(0_-)
+\end{equation}
+\begin{equation}
+I_C(s)=sCU_C(s)-Cu_C(0_-)
+\end{equation}
+
+这就是s域元件的并联模型，这里举一个例子进一步说明。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{p4.png}
+\caption{例6电路图}
+\end{figure}
+
+\textbf{例6：}如图4，已知 $e(t)=10\epsilon(t), C=1F, R=1\Omega, U_C(0_-)=5V$ ，求 $u_C(t)$ 。
+
+\textbf{解：}首先画出零输入时的s域图，如图5。
+\begin{figure}[htbp]
+\centering
+\includegraphics{p5.png}
+\caption{零输入s域图}
+\end{figure}
+
+因此
+\begin{equation}
+R_{zi}(s)=\frac{5}{s}\cdot\frac{1}{1+\frac{1}{s}}=\frac{5}{s+1}
+\notag
+\end{equation}
+\begin{equation}
+r_{zi}(t)=5e^{-t}
+\notag
+\end{equation}
+
+再画出零状态时的s域图，如图6。
+\begin{figure}[htbp]
+\centering
+\includegraphics{p6.png}
+\caption{零状态s域图}
+\end{figure}
+
+因此
+\begin{equation}
+R_{zs}(s)=\frac{10}{s}\cdot\frac{\frac{1}{s}}{1+\frac{1}{s}}=10(\frac{1}{s}-\frac{1}{s+1})
+\notag
+\end{equation}
+\begin{equation}
+r_{zs}(t)=10-10e^{-t}
+\notag
+\end{equation}
+
+解得全响应
+\begin{equation}
+r(t)=r_{zi}(t)+r_{zs}(t)=10-5e^{-t}
+\notag
+\end{equation}
+
+\subsection{系统函数的零、极点分布}
+我们知道，LTI系统的系统函数 $H(s)=N(s)/D(s)$ 是一个有理分式。我们称 $D(s)=0$ 的根为系统函数的极点，$N(s)=0$ 的根为系统函数的零点。将系统函数的零、极点表在 $s$ 平面上，并用圆圈表示零点，叉表示极点，这个图成为系统函数的零极图。图7就是一些系统函数的零极图。
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.9]{p7.png}
+\caption{一些系统的零极图}
+\end{figure}
+
+我们可以通过零极点的分布情况来推出冲激响应 $h(t)$ 的函数形式，在此讨论单极点情况：
+\begin{itemize}
+\item 极点再纵轴上：若在原点上，则冲激响应为阶跃函数；若在虚轴上，则冲激响应为等幅振荡。
+\item 极点再纵轴左侧：若在实轴上，则冲激响应为单调衰减指数函数；若不在实轴上，则冲激响应为减幅振荡。
+\item 极点再纵轴右侧：若在实轴上，则冲激响应为单调增长指数函数；若不在实轴上，则冲激响应为增幅振荡。
+\end{itemize} 
+
+除了以上知识点，我认为本章的“连续时间系统s域模拟”（教材p155）和“系统的稳定性”（教材p159）也是比较重要的知识点，因为我\sout{懒得画}不会画，所以同志们可以看一下书中这一部分的内容。
 \end{document}

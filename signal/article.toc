@@ -11,3 +11,8 @@
 \contentsline {subsection}{\numberline {4.1}傅里叶级数}{7}%
 \contentsline {subsection}{\numberline {4.2}傅里叶变换}{8}%
 \contentsline {subsection}{\numberline {4.3}连续时间系统的频域分析}{10}%
+\contentsline {section}{\numberline {5}连续时间信号与系统的复频域分析}{12}%
+\contentsline {subsection}{\numberline {5.1}拉普拉斯变换}{12}%
+\contentsline {subsection}{\numberline {5.2}拉普拉斯反变换}{14}%
+\contentsline {subsection}{\numberline {5.3}连续时间系统的复频域分析}{15}%
+\contentsline {subsection}{\numberline {5.4}系统函数的零、极点分布}{18}%
