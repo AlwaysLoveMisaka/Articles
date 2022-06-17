@@ -16,3 +16,11 @@
 \contentsline {subsection}{\numberline {5.2}拉普拉斯反变换}{14}%
 \contentsline {subsection}{\numberline {5.3}连续时间系统的复频域分析}{15}%
 \contentsline {subsection}{\numberline {5.4}系统函数的零、极点分布}{18}%
+\contentsline {section}{\numberline {6}离散时间信号与系统的时域分析}{19}%
+\contentsline {subsection}{\numberline {6.1}抽样定理}{19}%
+\contentsline {subsection}{\numberline {6.2}离散时间系统的响应}{19}%
+\contentsline {subsection}{\numberline {6.3}卷积和}{20}%
+\contentsline {section}{\numberline {7}离散信号与系统的 $z$ 域分析}{21}%
+\contentsline {subsection}{\numberline {7.1}$z$ 变换}{21}%
+\contentsline {subsection}{\numberline {7.2}反 $z$ 变换}{22}%
+\contentsline {subsection}{\numberline {7.3}离散时间 $z$ 域分析}{22}%

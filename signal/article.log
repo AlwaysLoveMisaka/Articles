@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.21)  17 JUN 2022 02:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.21)  18 JUN 2022 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,7 +733,7 @@ quanjiao) on input line 18.
  [2
 
 ]
-<cat.jpg, id=133, 1375.38844pt x 803.25093pt>
+<cat.jpg, id=138, 1375.38844pt x 803.25093pt>
 File: cat.jpg Graphic file (type jpg)
 <use cat.jpg>
 Package pdftex.def Info: cat.jpg  used on input line 47.
@@ -774,31 +774,32 @@ File: p7.png Graphic file (type png)
 <use p7.png>
 Package pdftex.def Info: p7.png  used on input line 863.
 (pdftex.def)             Requested size: 329.54814pt x 375.07784pt.
- [17 <./p5.png> <./p6.png>] 
+ [17 <./p5.png> <./p6.png>] [18 <./p7.png>] [19] [20] [21] [22]
+
 AED: lastpage setting LastPage
-[18 <./p7.png>] [19] (./article.aux)
+[23] [24] (./article.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9206 strings out of 480608
- 154616 string characters out of 5898698
- 391817 words of memory out of 5000000
- 24584 multiletter control sequences out of 15000+600000
- 582765 words of font info for 211 fonts, out of 8000000 for 9000
+ 9335 strings out of 480608
+ 156343 string characters out of 5898698
+ 392817 words of memory out of 5000000
+ 24699 multiletter control sequences out of 15000+600000
+ 586487 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,7n,52p,663b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
-imhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
-/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:
-/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
-.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
-s/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
-ows/Fonts/simhei.ttf>{d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/enc/dv
-ips/cm-super/cm-super-ts1.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/si
-mhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
-Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/
+imsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
+/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:
+/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei
+.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
+s/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wind
+ows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc>
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf>{d:/study/LaTeX/LaTeX
+/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Windows/
+Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/
 Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.
 ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts
 /simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windo
@@ -813,45 +814,48 @@ imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
 .ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
 s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
-ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
+ows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
-hei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
-onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
+sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
+onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/W
 indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
 tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
-simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
-s/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
-:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
-n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fon
-ts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
-dows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc
-><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
-mhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/
-Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/
+simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
+:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhe
+i.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+dows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf
+><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/si
+mhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/
+Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/
 Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.
 ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts
 /simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windo
-ws/Fonts/simhei.ttf><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/study/LaTeX/LaTeX/texlive/20
-20/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/study/LaTeX/LaTeX/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/study/LaTeX
-/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/stu
-dy/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/study/LaTeX/LaTeX/texlive/2
-020/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><d:/study/LaTeX/LaTeX/texlive
-/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on article.pdf (21 pages, 1421211 bytes).
+ws/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><
+c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simh
+ei.ttf><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/study/LaTeX/LaTeX/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/study/LaTeX/LaT
+eX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/study/L
+aTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:
+/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><d:/study/LaTeX/LaTeX/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/study/LaTeX/LaTeX/texlive/2020/
+texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><d:/study/LaTeX/LaTeX/texlive/202
+0/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on article.pdf (26 pages, 1475005 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
+ 717 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 340 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 
